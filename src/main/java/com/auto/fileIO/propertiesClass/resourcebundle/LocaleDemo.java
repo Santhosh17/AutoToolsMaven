@@ -13,7 +13,7 @@ public class LocaleDemo {
 		
 		String lang = "ka";
 		String country = "IN";
-		String fileLocation = "translations/Translate";// location should be inside resources folder
+		String fileLocation = "translations/Translate";// location should be inside resources folder (Ensure the resources folder 
 		
 		Locale l = new Locale(lang,country);
 		ResourceBundle rb = ResourceBundle.getBundle(fileLocation,l);
