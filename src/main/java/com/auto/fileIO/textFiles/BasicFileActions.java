@@ -9,7 +9,12 @@ public class BasicFileActions {
 //			creating a directory
 		File d = new File("C:\\Personal\\Learning\\NewFolder\\mys");
 		d.mkdir();
-		System.out.println(d.getAbsolutePath());
+		System.out.println("Absolute path = "+d.getAbsolutePath());
+		System.out.println("File path = "+d);
+		System.out.println("Checking file/folder exists = "+d.exists());
+		System.out.println("Checking file/folder parent = "+d.getParent());
+		System.out.println("Checking file/folder parent = "+d.getTotalSpace());
+		System.out.println("Checking file/folder parent = "+d.getCanonicalPath());
 //			d.delete();
 		File n = new File("C:\\Personal\\Learning\\NewFolder\\bang");
 		d.renameTo(n);
