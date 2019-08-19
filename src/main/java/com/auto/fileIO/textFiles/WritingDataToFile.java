@@ -14,6 +14,7 @@ public class WritingDataToFile {
 		bfw.write("Hello this is 2nd line written from code\n");
 		bfw.write("null");
 		bfw.flush(); // this will flush the stream in to the file
+		bfw.close();
 
 	}
 }

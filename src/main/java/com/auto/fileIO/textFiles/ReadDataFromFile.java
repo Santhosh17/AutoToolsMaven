@@ -17,6 +17,7 @@ public class ReadDataFromFile {
 //		while ((x = bfr.readLine()) != null) {
 //			System.out.println(x);
 //		}
+			bfr.close();
 	}
 }
 // File Reader Imp Methods
