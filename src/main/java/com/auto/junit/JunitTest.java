@@ -6,7 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 //@FixMethodOrder(MethodSorters.DEFAULT)
 //@FixMethodOrder(MethodSorters.JVM)
 public class JunitTest {
@@ -30,7 +30,9 @@ public class JunitTest {
 	@Test
 	public void brakecar() {
 		Assume.assumeTrue(false);// programmatically controlling the execution flow 
+
 		System.out.println("Running brake method");
+
 	}
 	
 	

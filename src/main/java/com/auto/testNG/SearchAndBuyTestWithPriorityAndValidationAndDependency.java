@@ -8,10 +8,10 @@ public class SearchAndBuyTestWithPriorityAndValidationAndDependency {
 	@Test(priority = 1)
 	public void search() {
 		System.out.println("Searching Item...");
-		Assert.assertTrue(false,"assertionError");
+		Assert.assertTrue(false,"assertionErrrrrrrror");
 	}
 	
-	@Test (priority = 2,dependsOnMethods =("search"))// dependsOnMethod output depends on the result of search method
+	@Test (priority = 2)// dependsOnMethod output depends on the result of search method
 	public void addToCart() {
 		System.out.println("Adding Item to Cart...");
 	}

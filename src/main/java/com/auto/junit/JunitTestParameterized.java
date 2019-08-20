@@ -31,6 +31,10 @@ public class JunitTestParameterized {
 		System.out.println(password);
 		System.out.println(browser);
 	}
+	@Test
+	public void loginTest1() {
+		System.out.println("logintest1");
+	}
 
 	// step4
 	@Parameters
